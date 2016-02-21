@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <div ng-view>
+    </div>
+{% endblock %}
+{% block extra_js %}
+    <script src="/static/js/GamingCafe/GamingApp.js"></script>
+    <script src="/static/js/GamingCafe/GamingAppServices.js"></script>
+    <script src="/static/js/GamingCafe/GamingAppControllers.js"></script>
+    <script src="/static/js/GamingCafe/GamingControllers.js"></script>
+{% endblock extra_js %}

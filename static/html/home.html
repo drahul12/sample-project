@@ -1,0 +1,16 @@
+<table style = "border: 1px solid black">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody ng-repeat = "game in games">
+      <tr>
+        <td ng-bind="$index + 1"></td>
+        <td ng-bind="game.name"></td>
+        <td ng-bind="game.description"></td>
+      </tr>
+    </tbody>
+</table>
